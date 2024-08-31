@@ -57,7 +57,7 @@ const Products = () => {
             autoPlay
             loop
             muted
-            src="src\assets\v1 (1).mp4" // Replace with your video path
+            src="videos\v1 (1).mp4" // Replace with your video path
           />
 
           <motion.div
@@ -70,7 +70,7 @@ const Products = () => {
               autoPlay
               loop
               muted
-              src="src\assets\v1 (2).mp4" // Replace with your video path
+              src="videos\v1 (2).mp4" // Replace with your video path
             />
           </motion.div>
           <motion.div
@@ -83,7 +83,7 @@ const Products = () => {
               autoPlay
               loop
               muted
-              src="src\assets\v1 (3).mp4" // Replace with your video path
+              src="videos\v1 (3).mp4" // Replace with your video path
             />
           </motion.div>
           <motion.div
@@ -96,7 +96,7 @@ const Products = () => {
               autoPlay
               loop
               muted
-              src="src\assets\v1 (4).mp4" // Replace with your video path
+              src="videos\v1 (4).mp4" // Replace with your video path
             />
           </motion.div>
           <motion.div
@@ -109,7 +109,7 @@ const Products = () => {
               autoPlay
               loop
               muted
-              src="src\assets\v1 (5).mp4" // Replace with your video path
+              src="videos\v1 (5).mp4" // Replace with your video path
             />
           </motion.div>
         </motion.div>
