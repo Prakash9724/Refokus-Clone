@@ -52,65 +52,72 @@ const Products = () => {
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
           className="absolute w-[32rem] h-[23rem] bg-white left-[44%] overflow-hidden"
         >
-          <video
+
+          <img className="h-full w-full object-cover" src="images\img (1).jpg" alt="" />
+          {/* <video
             className="h-full w-full object-cover"
             autoPlay
             loop
             muted
             src="videos\v1 (4).mp4" // Replace with your video path
-          />
+          /> */}
 
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-200 overflow-hidden"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <video
+
+<img className="h-full w-full object-cover" src="images\img (2).jpg" alt="" />
+            {/* <video
               className="h-full w-full object-cover "
               autoPlay
               loop
               muted
               src="videos\v1 (4).mp4" // Replace with your video path
-            />
+            /> */}
           </motion.div>
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-300"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <video
+             <img className="h-full w-full object-cover" src="images\img (3).jpg" alt="" />
+            {/* <video
               className="h-full w-full object-cover"
               autoPlay
               loop
               muted
               src="videos\v1 (4).mp4" // Replace with your video path
-            />
+            /> */}
           </motion.div>
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-400"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <video
+             <img className="h-full w-full object-cover" src="images\img (4).jpg" alt="" />
+            {/* <video
               className="h-full w-full object-cover"
               autoPlay
               loop
               muted
               src="videos\v1 (4).mp4" // Replace with your video path
-            />
+            /> */}
           </motion.div>
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-500"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <video
+             <img className="h-full w-full object-cover" src="images\img (5).jpg" alt="" />
+            {/* <video
               className="h-full w-full object-cover"
               autoPlay
               loop
               muted
               src="videos\v1 (4).mp4" // Replace with your video path
-            />
+            /> */}
           </motion.div>
         </motion.div>
       </div>
