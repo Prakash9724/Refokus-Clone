@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Product from "./Product";
 import { motion } from "framer-motion";
-import img1 from "/images/img (1).jpg";
-import img2 from "/images/img (2).jpg";
-import img3 from "/images/img (3).jpg";
-import img4 from "/images/img (4).jpg";
+import vid1 from "/videos/v1 (1).mp4";
+import vid2 from "/videos/v1 (2).mp4";
+import vid3 from "/videos/v1 (3).mp4";
+import vid4 from "/videos/v1 (4).mp4";
 
 const Products = () => {
   const products = [
@@ -56,68 +56,56 @@ const Products = () => {
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
           className="absolute w-[32rem] h-[23rem] bg-white left-[44%] overflow-hidden"
         >
-          <img className="h-full w-full object-cover" src={img1} alt="" />
-          {/* <video
+          
+          <video
             className="h-full w-full object-cover"
             autoPlay
             loop
             muted
-            src="videos\v1 (4).mp4" // Replace with your video path
-          /> */}
+            src={vid1} // Replace with your video path
+          />
 
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-200 overflow-hidden"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <img
-              className="h-full w-full object-cover"
-              src={img2}
-              alt=""
-            />
-            {/* <video
+           
+            <video
               className="h-full w-full object-cover "
               autoPlay
               loop
               muted
-              src="videos\v1 (4).mp4" // Replace with your video path
-            /> */}
+              src={vid2} // Replace with your video path
+            />
           </motion.div>
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-300"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <img
-              className="h-full w-full object-cover"
-              src={img3}
-              alt=""
-            />
-            {/* <video
+            
+            <video
               className="h-full w-full object-cover"
               autoPlay
               loop
               muted
-              src="videos\v1 (4).mp4" // Replace with your video path
-            /> */}
+              src={vid3} // Replace with your video path
+            />
           </motion.div>
           <motion.div
             animate={{ y: -pos + "rem" }}
             className="w-full h-full bg-sky-400"
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
           >
-            <img
-              className="h-full w-full object-cover"
-              src={img4}
-              alt=""
-            />
-            {/* <video
+            
+            <video
               className="h-full w-full object-cover"
               autoPlay
               loop
               muted
-              src="videos\v1 (4).mp4" // Replace with your video path
-            /> */}
+              src={vid4} // Replace with your video path
+            />
           </motion.div>
           
         </motion.div>
